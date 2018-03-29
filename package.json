@@ -1,6 +1,6 @@
 {
   "name": "deep-set-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set an object item to a given value using separator notation.",
   "main": "dist/deep-set.js",
   "repository": "git@github.com:atomita/deep-set-js.git",
