@@ -26,5 +26,5 @@ export function deepSet(target: any, key: string, value: any, separator: string 
     target[current] = next === `${parseInt(next, 10)}` ? [] : {};
   }
 
-  return deepSet(target[current], nexts, separator);
+  return deepSet(target[current], nexts, value, separator);
 }
